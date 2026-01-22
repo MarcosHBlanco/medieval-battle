@@ -24,24 +24,4 @@ This project focuses on **Object-Oriented Programming (OOP)** fundamentals such 
 - Java 17+
 - Maven
 
-### Build and run
-```bash
-mvn clean package
-java -cp target/medieval-battle-1.0-SNAPSHOT.jar org.example.Main
-```
 
-> If your jar name differs, check the `target/` folder after building.
-
-## 📸 Screenshots / Demo
-This is a console application. You can take screenshots or a short screen recording while running locally—no deployment required.
-
-Recommended captures:
-- Class selection menu
-- A few combat rounds
-- Final win/lose message
-
-## ✅ Improvements Made
-- Fixed battle loop so the fight ends when either character reaches 0 HP
-- Fixed monster selection so all monsters can be chosen
-- Improved dice rolling utility to reuse a single `Random` instance
-- Added clearer end-of-game messaging
